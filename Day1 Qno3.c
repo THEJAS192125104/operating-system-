@@ -33,6 +33,10 @@ int main()
 		total += A[i][2];
 	}
 	avg_wt = (float)total / n;
+	
+	
+	output
+		
 	total = 0;
 	printf("P	 BT	 WT	 TAT\n");
 	
@@ -45,3 +49,16 @@ int main()
 	printf("Average Waiting Time= %f", avg_wt);
 	printf("\nAverage Turnaround Time= %f", avg_tat);
 }
+
+
+output
+Enter number of process:8
+nEnter Burst Time:np1:5
+p2:2
+p3:6
+p4:9
+p5:73
+p6:1
+p7:6
+p8:5
+nProcesst    Burst Time    tWaiting TimetTurnaround Timenp6tt  1tt    0ttt1np2tt  2tt    1ttt3np1tt  5tt    3ttt8np8tt  5tt    8ttt13np3tt  6tt    13ttt19np7tt  6tt    19ttt25np4tt  9tt    25ttt34np5tt  73tt    34ttt107nnAverage Waiting Time=12.875000nAverage Turnaround Time=26.250000n
