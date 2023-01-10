@@ -31,3 +31,9 @@ int main()
 	fclose(fptr2);
 	return 0;
 }
+
+outpu
+Enter the filename to open for reading
+thejas
+Cannot open file thejas
+
